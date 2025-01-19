@@ -1,12 +1,12 @@
 <template>
   <main class="overflow-hidden">
     <div class="head-blog mt-3 pt-3 pb-4">
-      <h2 class="text-light text-center animate__animated animate__slideInDown">
+      <h2 class="text-black-50 text-center animate__animated animate__slideInDown">
         أخر الاخبار من مدونات
         <span class="text-primary fw-bold">شمسان</span>
       </h2>
       <p
-        class="text-white opacity-75 fw-medium fw-5 text-center animate__animated animate__slideInDown mb-1"
+        class="text-black opacity-75 fw-medium fw-5 fs-5 text-center animate__animated animate__slideInDown mb-1"
       >
         افضل التفصيلات اليدويه  بافضل الاسعار
       </p>
@@ -46,16 +46,16 @@
               class="img-fluid rounded-3"
             />
 
-            <span class="fw-semibold small text-light">
+            <span class="fw-semibold small text-black">
               <!-- icon bi -->
               <i class="bi bi-calendar3"></i>
               19 ابريل
             </span>
-            <h2 class="text-light">
+            <h2 class="text-black-50">
               تاثير الالوان
               <span class="text-primary fw-bold">علي البراند </span>
             </h2>
-            <p class="text-white fw-medium small opacity-75">
+            <p class="text-black-50 fs-5 fw-medium small opacity-75">
               هنا مثال نص مختصر يمكن ان يوضع هنا مثال نص يمكن ان يوضع هنا مثال نص يمكن ان
               يوضع هنا مثال نص يمكن ان يوضع هنا مثال نص يمكن ان يوضع هنا مثال نص مختصر
               يمكن ان يوضع هنا مثال نص يمكن ان يوضع هنا مثال نص يمكن ان يوضع هنا مثال نص
@@ -70,11 +70,11 @@
     </section>
 
     <div class="container mt-5 wow bounceInUp">
-      <h2 class="text-light text-center mt-3">
+      <h2 class="text-black-50 text-center mt-3">
         جميع
         <span class="text-primary fw-bold">المدونات لدينا</span>
       </h2>
-      <p class="text-white opacity-75 fw-medium fw-5 text-center">
+      <p class="text-black opacity-75 fw-medium fw-5 text-center">
         افضل الملابس الحصريه  بافضل الاسعار
       </p>
       <div class="d-flex align-items-center justify-content-center flex-wrap gap-3">
@@ -83,14 +83,16 @@
       </div>
     </div>
 
-    <section class="container mt-3 mb-5">
-      <div class="row g-3">
-        <EachBlog />
-        <EachBlog />
-        <EachBlog />
-        <EachBlog />
-        <EachBlog />
-        <EachBlog />
+    <section class=" mt-4  bg-info">
+      <div class="container">
+        <div class="row g-3 p-2">
+          <EachBlog />
+          <EachBlog />
+          <EachBlog />
+          <EachBlog />
+          <EachBlog />
+          <EachBlog />
+        </div>
       </div>
     </section>
   </main>

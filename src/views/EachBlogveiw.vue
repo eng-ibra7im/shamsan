@@ -1,12 +1,12 @@
 <template>
   <main class="overflow-hidden">
     <div class="head-blog mt-3 pt-3 pb-4">
-      <h2 class="text-light text-center animate__animated animate__slideInDown">
+      <h2 class="text-black-50 text-center animate__animated animate__slideInDown">
         كيف
         <span class="text-primary fw-bold">شمسان </span>
         أصبحت مؤسسة رائجة
       </h2>
-      <p class="text-white opacity-75 fw-medium fw-5 text-center animate__animated animate__slideInDown mb-1">
+      <p class="text-black fs-4 opacity-75 fw-medium fw-5 text-center animate__animated animate__slideInDown mb-1">
         افضل التصميمات بافضل الاسعار
       </p>
     </div>
@@ -16,7 +16,7 @@
         <img src="../assets/images/p1.webp" alt="blog image" class=" w-100 " height="800" />
         <!-- div to contain content -->
         <div class="">
-          <h1 class="text-primary fw-bold text-center mt-3 animate__animated animate__slideInDown">
+          <h1 class="text-black-50 fw-bold text-center mt-3 animate__animated animate__slideInDown">
             <span class="text-primary">شمسان</span> هي شركة خياطه تقدم خدمات في
           </h1>
           <small class="text-light text-center d-flex m-auto justify-content-center gap-2 mt-4">
@@ -26,7 +26,7 @@
             <NTag type="primary">جلباب</NTag>
           </small>
           <!-- content -->
-          <p class="text-light mt-4">
+          <p class="text-black-50 fw-semibold mt-4">
             هي مؤسسة متخصصة في إنتاج وتصميم الملابس والمنسوجات بأشكال وأحجام مختلفة. تعتمد الشركة على مهارات الحرفيين
             والتقنيات الحديثة لتحويل الأقمشة إلى منتجات تلبي احتياجات العملاء. يمكن أن تكون منتجات الشركة موجهة لعدة
             قطاعات
