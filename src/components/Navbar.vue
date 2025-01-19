@@ -61,10 +61,11 @@
                 <div class="modal-content">
                   <div class="modal-header border-0 justify-content-between">
                     <h5 class="modal-title main-text fw-bold" id="modalTitleId">
-                      {{ $t("language") }}
+                      اللغه
                     </h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                   </div>
+                  <hr class="mt-1">
                   <div class="modal-body">
                     <div class="container-fluid d-flex flex-column">
                       <div class="d-flex justify-content-between align-items-center mb-2">
@@ -99,7 +100,7 @@
         </div>
       </div>
     </header>
-    
+
     <nav>
       <div class="container border-bottom pt-2 pb-3">
         <div class="align-items-center d-flex justify-content-between">
@@ -117,14 +118,16 @@
                   {{ $t("nav.home") }}
                   <i class="bi bi-caret-down-fill"></i>
                 </RouterLink>
-                <ul class="dropdown-menu">
+                <ul class="dropdown-menu mt-2">
                   <li>
-                    <RouterLink class="cursor-pointer dropdown-item " to="/" exact-active-class="text-primary">
+                    <RouterLink class="cursor-pointer fw-semibold dropdown-item " to="/"
+                      exact-active-class="text-primary">
                       الرئيسيه
                     </RouterLink>
                   </li>
                   <li>
-                    <RouterLink class="cursor-pointer dropdown-item d-flex justify-content-between" to="/" exact>
+                    <RouterLink class="cursor-pointer fw-semibold dropdown-item d-flex justify-content-between" to="/"
+                      exact>
                       <span>
                         الاسعار
                       </span>
@@ -132,50 +135,161 @@
                     </RouterLink>
                   </li>
                   <li>
-                    <RouterLink class="cursor-pointer dropdown-item " to="/" exact>
-                      الرئيسيه
+                    <RouterLink class="cursor-pointer fw-semibold dropdown-item " to="/" exact>
+                      حسابي
+                    </RouterLink>
+                  </li>
+                  <li>
+                    <RouterLink class="cursor-pointer fw-semibold dropdown-item " to="/" exact>
+                      حسابي في الاحالات
+                    </RouterLink>
+                  </li>
+                  <li>
+                    <RouterLink class="cursor-pointer fw-semibold dropdown-item " to="/" exact>
+                      الانضمام الي شركائنا الموزعين
+                    </RouterLink>
+                  </li>
+                  <li>
+                    <RouterLink class="cursor-pointer fw-semibold dropdown-item " to="/" exact>
+                      سياسة الشركه
+                    </RouterLink>
+                  </li>
+                  <li>
+                    <RouterLink class="cursor-pointer fw-semibold dropdown-item " to="/" exact>
+                      سجل التحدثات
                     </RouterLink>
                   </li>
                 </ul>
               </li>
 
               <li class="nav-item dropdown">
-                <RouterLink class="ms-3 cursor-pointer dropdown-toggle d-flex align-items-center gap-1" to="/"
-                  aria-expanded="false" role="button" data-bs-toggle="dropdown" :title="$t('nav.home')"
+                <RouterLink class="ms-3 cursor-pointer fw-semibold dropdown-toggle d-flex align-items-center gap-1"
+                  to="/" aria-expanded="false" role="button" data-bs-toggle="dropdown" :title="$t('nav.home')"
                   :aria-label="$t('nav.home')">
-                  {{ $t("nav.services") }}
+                  برامجنا
                   <i class="bi bi-caret-down-fill"></i>
                 </RouterLink>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                <ul class="dropdown-menu mt-2">
                   <li>
-                    <RouterLink class="ms-3 cursor-pointer " to="/" exact-active-class="text-primary">
-                      gfgdfgdf
+                    <RouterLink class="cursor-pointer fw-semibold   py-2  dropdown-item  " to="/" exact>
+                      برنامج مبيعات سيلز اب || SalesUp
+                    </RouterLink>
+                  </li>
+                  <li>
+                    <RouterLink class="cursor-pointer fw-semibold  py-2  dropdown-item " to="/" exact>
+                      برنامج الصيانة تاتش اب || TouchUp
+                    </RouterLink>
+                  </li>
+                  <li>
+                    <RouterLink class="cursor-pointer fw-semibold  py-2 dropdown-item  " to="/" exact>
+                      برنامج صيدلية || PharmaUp
+                    </RouterLink>
+                  </li>
+                  <li>
+                    <RouterLink class="cursor-pointer fw-semibold  py-2   dropdown-item " to="/" exact>
+                      برنامج حسابات سيلز اب
+                    </RouterLink>
+                  </li>
+                  <li>
+                    <RouterLink class="cursor-pointer fw-semibold  py-2  dropdown-item " to="/" exact>
+                      برنامج محاسبة
+                    </RouterLink>
+                  </li>
+                  <li>
+                    <RouterLink class="cursor-pointer fw-semibold  py-2 dropdown-item  " to="/" exact>
+                      برنامج لايف كيو || LiveQ 
+                    </RouterLink>
+                  </li>
+                  <li>
+                    <RouterLink class="cursor-pointer fw-semibold  py-2 dropdown-item " to="/" exact>
+                      برنامج تنظيم مقابلات المدير || IntMan
                     </RouterLink>
                   </li>
                 </ul>
               </li>
 
               <li class="nav-item dropdown">
-                <RouterLink class="ms-3 cursor-pointer dropdown-toggle d-flex align-items-center gap-1" to="/"
-                  aria-expanded="false" role="button" data-bs-toggle="dropdown" :title="$t('nav.home')"
+                <RouterLink class="ms-3 cursor-pointer fw-semibold dropdown-toggle d-flex align-items-center gap-1"
+                  to="/" aria-expanded="false" role="button" data-bs-toggle="dropdown" :title="$t('nav.home')"
                   :aria-label="$t('nav.home')">
-                  {{ $t("nav.aboutUs") }}
+                  مجلات العمل
                   <i class="bi bi-caret-down-fill"></i>
                 </RouterLink>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                <ul class="dropdown-menu mt-2">
                   <li>
-                    <RouterLink class="ms-3 cursor-pointer " to="/" exact-active-class="text-primary">
-                      gfgdfgdf
+                    <RouterLink class="cursor-pointer fw-semibold   py-2  dropdown-item  " to="/" exact>
+                      برنامج حسابات erp 
+                    </RouterLink>
+                  </li>
+                  <li>
+                    <RouterLink class="cursor-pointer fw-semibold   py-2  dropdown-item  " to="/" exact>
+                      برنامج الشركات التجارية
+                    </RouterLink>
+                  </li>
+                  <li>
+                    <RouterLink class="cursor-pointer fw-semibold   py-2  dropdown-item  " to="/" exact>
+                      برنامج الشركات الصغيره
+                    </RouterLink>
+                  </li>
+                  <li>
+                    <RouterLink class="cursor-pointer fw-semibold   py-2  dropdown-item  " to="/" exact>
+                      برنامج بيع وشراء
+                    </RouterLink>
+                  </li>
+                  <li>
+                    <RouterLink class="cursor-pointer fw-semibold   py-2  dropdown-item  " to="/" exact>
+                      برنامج ادارة مركز صيانة 
+                    </RouterLink>
+                  </li>
+                  <li>
+                    <RouterLink class="cursor-pointer fw-semibold   py-2  dropdown-item  " to="/" exact>
+                      برنامج فواتير مبيعات  
+                    </RouterLink>
+                  </li>
+                  <li>
+                    <RouterLink class="cursor-pointer fw-semibold   py-2  dropdown-item  " to="/" exact>
+                      برنامج حسابات معتمد من هيئة الذكاة والدخل 
+                    </RouterLink>
+                  </li>
+                  <li>
+                    <RouterLink class="cursor-pointer fw-semibold   py-2  dropdown-item  " to="/" exact>
+                      برنامج  ايرادات ومصروفات 
+                    </RouterLink>
+                  </li>
+                  <li>
+                    <RouterLink class="cursor-pointer fw-semibold   py-2  dropdown-item  " to="/" exact>
+                      تحميل برنامج محاسبة عربي كامل  
+                    </RouterLink>
+                  </li>
+                  <li>
+                    <RouterLink class="cursor-pointer fw-semibold   py-2  dropdown-item  " to="/" exact>
+                      برنامج مبيعات ومشتريات 
+                    </RouterLink>
+                  </li>
+                  <li>
+                    <RouterLink class="cursor-pointer fw-semibold   py-2  dropdown-item  " to="/" exact>
+                      برنامج نقاط البيع Pos 
+                    </RouterLink>
+                  </li>
+                  <li>
+                    <RouterLink class="cursor-pointer fw-semibold   py-2  dropdown-item  " to="/" exact>
+                      برنامج كاشير
+                    </RouterLink>
+                  </li>
+                  <li>
+                    <RouterLink class="cursor-pointer fw-semibold   py-2  dropdown-item  " to="/" exact>
+                      برنامج ادارة المخازن 
+                    </RouterLink>
+                  </li>
+                  <li>
+                    <RouterLink class="cursor-pointer fw-semibold   py-2  dropdown-item  " to="/" exact>
+                      برنامج نقاط الولاء  
                     </RouterLink>
                   </li>
                 </ul>
               </li>
               <li>
-                <RouterLink to="/blogs" class="ms-3 cursor-pointer" exact-active-class="text-primary"
+                <RouterLink to="/blogs" class="ms-3 cursor-pointer " exact-active-class="text-primary"
                   :title="$t('nav.blog')" :aria-label="$t('nav.blog')">
                   {{ $t("nav.blog") }}
                 </RouterLink>
