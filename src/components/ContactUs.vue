@@ -185,7 +185,6 @@ export default {
 
 <style scoped>
 
-background: red;
 form input,
 select {
   height: 45px !important;
