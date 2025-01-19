@@ -1,0 +1,63 @@
+{
+  "name": "مؤسسة إطلالة للتقنية والتسويق",
+  "short_name": "إطلالة",
+  "start_url": "https://etlalaa.com",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/logo_icon.jpg",
+      "sizes": "16x16",
+      "type": "image/jpg"
+    },
+    {
+      "src": "/logo_icon.jpg",
+      "sizes": "32x32",
+      "type": "image/jpg"
+    },
+    {
+      "src": "/logo_icon.jpg",
+      "sizes": "48x48",
+      "type": "image/jpg"
+    },
+    {
+      "src": "/logo_icon.jpg",
+      "sizes": "72x72",
+      "type": "image/jpg"
+    },
+    {
+      "src": "/logo_icon.jpg",
+      "sizes": "96x96",
+      "type": "image/jpg"
+    },
+    {
+      "src": "/logo_icon.jpg",
+      "sizes": "144x144",
+      "type": "image/jpg"
+    },
+    {
+      "src": "/logo_icon.jpg",
+      "sizes": "192x192",
+      "type": "image/jpg"
+    },
+    {
+      "src": "/logo_icon.jpg",
+      "sizes": "256x256",
+      "type": "image/jpg"
+    },
+    {
+      "src": "/logo_icon.jpg",
+      "sizes": "384x384",
+      "type": "image/jpg"
+    },
+    {
+      "src": "/logo_icon.jpg",
+      "sizes": "512x512",
+      "type": "image/jpg"
+    }
+  ],
+  "theme_color": "#9583ff",
+  "background_color": "#332d55",
+  "description": "مؤسسة إطلالة للتقنية والتسويق ، نقرب لك البعيد!",
+  "lang": "ar",
+  "dir": "rtl"
+}

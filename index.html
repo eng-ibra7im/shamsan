@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="مؤسسة شمسان!" />
+  <meta name="keywords" content="شمسان, الصفحة الرئيسية" />
+  <meta name="author" content="شمسان" />
+  <meta name="robots" content="index, follow" />
+  <meta name="revisit-after" content="3 days" />
+  <meta name="googlebot" content="index, follow" />
+
+  <!-- !More Meta -->
+  <meta name="theme-color" content="#9583ff" />
+  <meta name="msapplication-navbutton-color" content="#9583FF" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="#9583FF" />
+  <meta name="msapplication-TileColor" content="#9583FF" />
+  <meta name="msapplication-TileImage" content="/logo_icon.jpg" />
+  <meta name="application-name" content="شمسان" />
+  <meta name="msapplication-tooltip" content="شمسان" />
+  <meta name="msapplication-starturl" content="/" />
+  <meta name="msapplication-window" content="width=800;height=600" />
+  <meta name="msapplication-task" content="name=شمسان;action-uri=/;icon-uri=/logo_icon.jpg" />
+
+  <!-- !Open Graph -->
+  <meta property="og:title" content="itlala" />
+  <meta property="og:description" content="itlala - الصفحة الرئيسية" />
+  <meta property="og:image" content="/logo_icon.jpg" />
+  <meta property="og:url" content />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="itlala" />
+  <meta property="og:locale" content="ar_SA" />
+  <meta property="og:locale:alternate" content="en_GB" />
+
+
+  <!-- !Title -->
+  <title>
+    مؤسسة شمسان للخياطه
+  </title>
+
+  <!-- !Favicon -->
+  <link rel="apple-touch-icon" href="/public/logo.webp" />
+  <link rel="icon" href="/public/logo.webp" />
+  <link rel="shortcut icon" href="/public/logo.webp" />
+  <link rel="icon" type="image/jpg" sizes="16x16" href="/public/logo.webp" />
+  <link rel="icon" type="image/jpg" sizes="32x32" href="/public/logo.webp" />
+  <link rel="icon" type="image/jpg" sizes="96x96" href="/public/logo.webp" />
+  <link rel="icon" type="image/jpg" sizes="192x192" href="/public/logo.webp" />
+  <link rel="icon" type="image/jpg" sizes="512x512" href="/public/logo.webp" />
+
+  <style>
+    body {
+      /* gradiant */
+      background: linear-gradient(90deg, var(--secondary), var(--primary));
+    }
+
+    .preloader {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 9999;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: opacity 0.5s ease, visibility 0.5s ease;
+    }
+
+    .preloader.hidden {
+      opacity: 0;
+      visibility: hidden;
+    }
+
+    .preloader .progress {
+      width: 100%;
+      height: 8px;
+      background: #e0e0e0;
+      border-radius: 4px;
+      overflow: hidden;
+      margin-top: 20px;
+    }
+
+    .preloader .progress-bar {
+      height: 8px;
+      background-color: #ffc107;
+      width: 0;
+      animation: progress-animation 3s linear forwards;
+    }
+
+    @keyframes progress-animation {
+      0% {
+        width: 0;
+      }
+
+      100% {
+        width: 100%;
+      }
+    }
+
+    .bg-main {
+      background-color: var(--accent-300) !important;
+    }
+  </style>
+
+  <!-- !icons -->
+  <link href="/css/icons-rtl.min.css" rel="stylesheet" type="text/css" />
+
+  <!-- !App css -->
+  <link href="/app-rtl.min.css" rel="stylesheet" type="text/css" id="app-style" />
+
+  <!-- !icons -->
+  <link href="/css/icons.min.css" rel="stylesheet" type="text/css" />
+
+  <!-- !Check language in localStorage and load appropriate stylesheet -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var lang = localStorage.getItem('language');
+
+      // Remove existing stylesheet
+      var existingStyle = document.getElementById('app-style');
+      if (existingStyle) {
+        existingStyle.parentNode.removeChild(existingStyle);
+      }
+
+      // Load appropriate stylesheet
+      if (lang === 'ar') {
+        var rtlStyle = document.createElement('link');
+        const baseUrl = window.location.origin + '/';
+        rtlStyle.href = `${baseUrl}app-rtl.min.css`;
+        rtlStyle.rel = 'stylesheet';
+        rtlStyle.type = 'text/css';
+        rtlStyle.id = 'app-style';
+        document.head.appendChild(rtlStyle);
+      }
+      else {
+        var ltrStyle = document.createElement('link');
+        const baseUrl = window.location.origin + '/';
+        ltrStyle.href = `${baseUrl}app.min.css`;
+        ltrStyle.rel = 'stylesheet';
+        ltrStyle.type = 'text/css';
+        ltrStyle.id = 'app-style';
+        document.head.appendChild(ltrStyle);
+      }
+    });
+  </script>
+
+  <!-- !manifest -->
+  <link rel="manifest" href="./manifest.json" />
+
+  <script>
+    const preloader = document.querySelector('.preloader');
+    const progressBar = document.querySelector('.progress-bar');
+
+    // Simulate loading progress
+    let progress = 0;
+    if (preloader && progress) {
+      const interval = setInterval(() => {
+        progress += 10;
+        progressBar.style.width = `${progress}%`;
+      }, 300); // Increment every 300ms
+    }
+  </script>
+</head>
+
+<body>
+
+  <!-- !Preloader -->
+  <div class="preloader">
+    <div class="d-flex flex-column">
+      <img src="./src/assets/images/logo.webp" alt="مؤسسة إطلالة للتقنية والتسويق" style="max-width: 200px" width="200" height="80" />
+      <!-- progress -->
+      <div class="progress">
+        <div class="progress-bar progress-bar-striped progress-bar-animated bg-main" role="progressbar"
+          style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" aria-valuemax="100"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- !Page -->
+  <div id="app"></div>
+
+  <!-- !Scripts -->
+  <script type="module" src="/src/main.js"></script>
+  <script src="/js/jquery.min.js"></script>
+  <script src="/js/bootstrap.bundle.min.js"></script>
+  <script src="/js/waves.min.js"></script>
+  <script src="/js/feather.min.js"></script>
+  <script src="/js/app.min.js"></script>
+  <script>
+    // Replace feather icons after app.min.js to ensure any dynamic elements are ready
+    feather.replace();
+  </script>
+</body>
+
+</html>

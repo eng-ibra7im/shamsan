@@ -1,0 +1,111 @@
+/* !SWIPPER */
+/* .swiper-pagination-bullet-active {
+  background-color: var(--accent-300) !important;
+  width: 25px !important;
+  border-radius: 5px !important;
+  height: 4px !important;
+}
+
+.swiper-button-next, .swiper-button-prev {
+  background-color: var(--bg-300);
+  color: var(--accent-300) !important;
+  width: 50px !important;
+  height: 50px !important;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+
+.swiper-pagination-bullet:not(.swiper-pagination-bullet-active){
+  height: 4px !important;
+  width: 5px !important;
+}
+
+.swiper-button-prev:after, .swiper-button-next:after {
+  font-size: 15px !important;
+  font-weight: bolder;
+}
+
+@media screen and (max-width:800px) {
+  .swiper-button-next, .swiper-button-prev {
+    width: 35px !important;
+    height: 35px !important;
+  }
+
+  .swiper-button-prev:after, .swiper-button-next:after {
+    font-size: 10px !important;
+    font-weight: bolder;
+  }
+} */
+
+
+
+/* !SWIPPER */
+.swiper-pagination-bullet {
+  width: 15px !important;
+  height: 4px !important;
+  border-radius: 10px !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: var(--accent-300) !important;
+  width: 20px !important;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  background-color: var(--primary-100);
+  color: var(--accent-300) !important;
+  width: 40px !important;
+  height: 40px !important;
+  border-radius: 50%;
+  border: 1px solid var(--accent-300) !important;
+}
+
+/* hover */
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  background-color: var(--accent-300);
+  color: var(--primary-100) !important;
+  border: 1px solid var(--primary-100) !important;
+}
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+  font-size: 15px !important;
+  font-weight: bolder;
+}
+
+@media screen and (max-width: 800px) {
+  .swiper-button-next,
+  .swiper-button-prev {
+    width: 35px !important;
+    height: 35px !important;
+  }
+
+  .swiper-button-prev:after,
+  .swiper-button-next:after {
+    font-size: 10px !important;
+    font-weight: bolder;
+  }
+}
+
+.mySwiper.swipperArrow {
+  padding-bottom: 80px !important;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  top: 90% !important;
+}
+
+.swiper-button-next,
+.swiper-rtl .swiper-button-prev {
+  left: calc(50% + 10px) !important;
+  right: auto !important;
+}
+
+.swiper-button-prev,
+.swiper-rtl .swiper-button-next {
+  right: calc(50% + 10px) !important;
+  left: auto !important;
+}

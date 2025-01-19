@@ -1,0 +1,91 @@
+{
+  "home": "Home",
+  "navbar": {
+    "home": "Home",
+    "services": "Services",
+    "marketing": "Marketing",
+    "aboutUs": "About Us",
+    "blog": "Blog",
+    "contactUs": "Contact Us",
+    "freeConsultation": "Free Consultation",
+    "menu": "Menu"
+  },
+  "services": "Services",
+  "results": {
+    "heading": "Some of Our Results",
+    "description": "Now you can check some of our results, which represent a part of our work"
+  },
+  "whatWeOffer": {
+    "previous": "Previous",
+    "next": "Next",
+    "heading": "What Do We Offer?",
+    "description": "The best exclusive clothes at the best prices",
+    "details": "Details",
+    "seeMore": "See More"
+  },
+  "howWeWork": {
+    "heading": "How We Work",
+    "description": "Learn about how we work and how we deliver our services"
+  },
+  "ourProjects": {
+    "heading": "Some of Our Projects",
+    "description": "There is no doubt that good work requires a lot of effort, time, and dedication. Therefore, we present to you some of our projects"
+  },
+  "contactUs": {
+    "heading": "Contact Us Now",
+    "description": "Here is some text related to the content"
+  },
+  "nav": {
+    "logoAlt": "Shamsan Tailoring Foundation",
+    "logoTitle": "Shamsan Tailoring Foundation",
+    "home": "Home",
+    "services": "Services",
+    "aboutUs": "About Us",
+    "blog": "Blog",
+    "contactUs": "Contact Us",
+    "freeConsultation": "Free Consultation",
+    "menu": "Menu"
+  },
+  "footer": {
+    "privatePolicy": "Privacy Policy",
+    "termsAndConditions": "Terms and Conditions",
+    "copyRight": "All rights reserved for",
+    "companyName": "Shamsan Tailoring Foundation"
+  },
+  "about_us": {
+    "title": "Who is <span class='text-secondary'> Shamsan? </span>",
+    "description": "A foundation specializing in the production and design of clothing and textiles in various shapes and sizes. The company relies on the skills of craftsmen and modern technologies to transform fabrics into products that meet customer needs. The company's products can cater to multiple sectors"
+  },
+  "notFound": {
+    "altText": "Shamsan Tailoring Foundation",
+    "title": "Page Not Found",
+    "message": "Sorry, the page you are looking for does not exist.",
+    "backToHome": "Back to Home"
+  },
+  "Phone": "Phone Number",
+  "WhatsApp": "WhatsApp",
+  "contactUsText": {
+    "heading": "Contact Us",
+    "description": "We are here to help you. Please fill out the form below to get in touch.",
+    "placeholders": {
+      "fullName": "Your Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "service": "Select a Service",
+      "message": "Your Message"
+    },
+    "sendButton": "Send"
+  },
+  "aboutUs": {
+    "title": "Who is Shamsan Foundation?",
+    "learnMore": "Learn More About Us"
+  },
+  "visit": "Visit",
+  "Value is required": "Value is required",
+  "Value is not a valid email address": "Value is not a valid email address",
+  "Value must be numeric": "Value must be numeric",
+  "This field should be at least 2 characters long": "This field should be at least 2 characters long",
+  "This field should be at least 10 characters long": "This field should be at least 10 characters long",
+  "This field should be at least 8 characters long": "This field should be at least 8 characters long",
+  "successMessage": "Congratulations, your message has been successfully sent. We will get back to you as soon as possible."
+}
